@@ -212,6 +212,31 @@
 	- [Meteor](https://www.meteor.com/)
 
 
+### La magia de JavasScript está en las funciones
+
+```js
+var Magic = (function(){ 
+	console.log("Soy 1") 
+	let coeficienteSeguro = 10; 
+	return function(num){ 
+		console.log("Soy 2, coeficienteSeguro:", coeficienteSeguro);
+		if(coeficienteSeguro > 20){ 
+			return num*coeficienteSeguro 
+		} else { 
+			coeficienteSeguro++ 
+			return Magic(num);
+		} 
+	} 
+})()
+
+
+var dato = Magic(10); 
+console.log(dato); 
+
+dato = Magic(100);
+console.log(dato);
+```
+
 ## Back-end
 
 ### Node.js
@@ -327,9 +352,38 @@
 - **[Manifiesto por el Desarrollo Ágil de Software](http://agilemanifesto.org/iso/es/)**
 - **[El estado del desarrollo Front-End en 2016 por Ashley Nolan](https://ashleynolan.co.uk/blog/frontend-tooling-survey-2016-results)**
 
-### Desarrolladores de hoy
 
-**JSDramas**
+**IO.js**
+
+![IO_logo or node_logo](../assets/clase1/c268b479-d9be-450f-910c-fde0387f6448.jpeg)
+
+> io.js has merged with the Node.js project again.
+There won't be any further io.js releases. All of the features in io.js are available in Node.js v4 and above.
+
+- [Tiempos turbulentos para la comunidad Node.js, ha nacido io.js](http://www.genbetadev.com/actualidad/tiempos-turbulentos-para-la-comunidad-node-js-ha-nacido-io-js)
+- [JavaScript I/O](https://iojs.org/es/)
+
+**Dependencias, dependencias, dependencias... y más dependencias**
+
+```javascript
+module.exports = leftpad;
+
+function leftpad (str, len, ch) {
+  str = String(str);
+
+  var i = -1;
+
+  if (!ch &amp;&amp; ch !== 0) ch = ' ';
+
+  len = len - str.length;
+
+  while (++i &lt; len) {
+    str = ch + str;
+  }
+
+  return str;
+}
+```
 - [How one developer just broke Node, Babel and thousands of projects in 11 lines of JavaScript](http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/)
 - [A discussion about the breaking of the Internet](https://medium.com/@mproberts/a-discussion-about-the-breaking-of-the-internet-3d4d2a83aa4d#.r9oqkkuhb)
 - [I’ve Just Liberated My Modules](https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.mjp6u93c1)
@@ -342,6 +396,32 @@
 - [¿Y si el software Open Source desapareciera?](http://www.xataka.com/servicios/y-si-el-software-open-source-desapareciera)
 - [El programador que borró 11 líneas de código y se cargó Internet](http://www.omicrono.com/2016/04/desaparicion-en-node-js-de-left-pad/)
 
+**Event-Stream**
+
+> La biblioteca Event-Stream es una herramienta para trabajar fácilmente con streams (flujos de datos), que tiene alrededor de dos millones de descargas semanales.
+> 
+> Dicha biblioteca fue creada y mantenida en un principio por Dominic Tarr. Eventualmente, el desarrollo pasó a manos de un usuario llamado right9ctrl.
+> 
+> El código malicioso fue añadido en la version 3.3.6 de la biblioteca, publicada el 9 de septiembre. Desde entonces ha sido descargada por unos 8 millones de usuarios. Sin embargo, el código malicioso no ha salido a la luz hasta principios de la semana pasada.
+> 
+> Junto con la versión 3.3.6 de la biblioteca Event-Streamer, el desarrollador malicioso incluyó una nueva dependencia llamada Flatmap-Stream, que es la que contenía el código malicioso.
+> 
+> Dado que el código del módulo Flatmap-Stream estaba cifrado, su comportamiento pasó inadvertido por la comunidad más de dos meses, hasta que un estudiante de la Universidad Estatal de California encontró el problema y así lo hizo constar en un issue de Github.
+> 
+> Después de analizar el código ofuscado, se constató que el módulo Flatmap-Stream se había diseñado específicamente pensando en el robo de Bitcoins de los usuarios de la aplicación móvil Copay, que hace uso de esta misma biblioteca, para transferirlos a un servidor en Kuala Lumpur.
+> 
+> Copay es un monedero de Bitcoin y Bitcoin Cash en software libre desarrollado por Bitpay. Ésta última compañía, ha publicado un aviso indicando que las versiones de Copay desde la 5.0.2 hasta la 5.1.0 están afectadas por la biblioteca maliciosa. También indican que los usuarios de Bitpay no están afectados por este problema.
+> 
+> _[Laboratorio Hispasec](https://unaaldia.hispasec.com/2018/11/importante-modulo-de-nodejs-infectado-para-robar-bitcoins.html)_
+
+- [dominictarr/event-stream | #116 I don't know what to say](https://github.com/dominictarr/event-stream/issues/116)
+- [Malicious code in npm ‘event-stream’ package targets a bitcoin wallet and causes 8 million downloads in two months](https://hub.packtpub.com/malicious-code-in-npm-event-stream-package-targets-a-bitcoin-wallet-and-causes-8-million-downloads-in-two-months/)
+- [Widely used open source software contained bitcoin-stealing backdoor](https://arstechnica.com/information-technology/2018/11/hacker-backdoors-widely-used-open-source-software-to-steal-bitcoin/)
+- [Importante módulo de NodeJS infectado para robar Bitcoins](https://unaaldia.hispasec.com/2018/11/importante-modulo-de-nodejs-infectado-para-robar-bitcoins.html)
+- [Malicious code found in npm package event-stream downloaded 8 million times in the past 2.5 months](https://snyk.io/blog/malicious-code-found-in-npm-package-event-stream/)
+- [Compromised npm Package: event-stream](https://medium.com/intrinsic/compromised-npm-package-event-stream-d47d08605502)
+
+### Desarrolladores de hoy
 
 **Cambios, cambios... y más cambios**
 

@@ -87,13 +87,10 @@
 
 ![img](../assets/clase1/5e65e281-074f-4625-ad2c-4a67126a94f9.jpeg)
 
-**CMS (Back-End)**
-
-![img](../assets/clase1/31489257-738e-4e4d-839e-78871dd82ff3.html) 
 
 **CDN (Content Delivery Network)**
 
-![img](../assets/clase1/470ffbdf-eefc-4f98-bd25-2cf681ab713a.html)
+![img](../assets/clase1/470ffbdf-eefc-4f98-bd25-2cf681ab713a.png)
 
 **Tracking**
 

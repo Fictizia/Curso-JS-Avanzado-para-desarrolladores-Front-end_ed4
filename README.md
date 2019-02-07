@@ -52,6 +52,7 @@ Teoría y Recursos
 Teoría | Recursos | Descripción
 ------------ | ------------- | -------------
 [Clase 1](teoria/clase1.md)	| [Clase 1](recursos/clase1.md) | Intro al Curso, Git/Github/Gitlab/Bitbucket 
+[Clase 2](teoria/clase2.md) | [Clase 2](recursos/clase2.md) | Chrome DevTools + Reintro a Javascript I
 
 
 

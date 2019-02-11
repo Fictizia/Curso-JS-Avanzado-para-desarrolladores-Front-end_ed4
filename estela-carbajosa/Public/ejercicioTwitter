@@ -1,0 +1,2 @@
+//En consola
+console.log = param => param

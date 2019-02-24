@@ -200,7 +200,7 @@
 
 - .some() *Verifica si alguno de los elementos en el arreglo pasan la prueba implementada por la función dada:*:
     ```javascript
-	function tamañoValido(elemento, indice, arrreglo) {
+	function tamañoValido(elemento, indice, arreglo) {
 	  return elemento >= 10;
 	}
 	[12, 5, 8, 130, 44].some(tamañoValido);   // true

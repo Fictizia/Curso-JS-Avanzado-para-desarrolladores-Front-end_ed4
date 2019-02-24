@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+# Carpeta privada de Elena Mateos López
+
+elena/privada/*

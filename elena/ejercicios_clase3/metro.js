@@ -215,3 +215,109 @@ for (let i = 0; i < trenes.length; i++) {
 	}
 }
 
+/**
+ * En el ejercicio 8 nos dice: Hagamos una lista de pasajeros efectiva usando Arrays e imprimamos 
+ * cada pasajero de la lista y su número de asiento (basado en el orden del índice). 
+ * Nota: El primer asiento del tren es el 1 y no el 0.
+ */
+
+let pasajeros = [
+	"Alicia Gutierrez",
+	"Alfonso Gomez",
+	"Luis Navarro",
+	"Oscar Garcia",
+	"Andres Fernandez",
+	"Lucia Mellado"
+];
+
+for (let i = 0; i < pasajeros.length; i++) {
+	const asiento = pasajeros[i];
+	console.log(`El pasjero ${pasajeros[i]} se sienta en el asiento ${asiento}`)
+}
+
+
+/**
+ * En el ejercicio 9 nos pide: 9 - Necesitamos una función para agregar 
+ * y otra para borrar pasajeros de la lista. 
+ * Nota: Pensemos que a la larga pueden existir más listas.
+ */
+
+var pasajeros = [
+	"Alicia Gutierrez",
+	"Alfonso Gomez",
+	"Luis Navarro",
+	"Oscar Garcia",
+	"Andres Fernandez",
+	"Lucia Mellado"
+];
+
+var agregarPasajero = function (pasajero, array) {
+	array.push(pasajero)
+}
+
+var quitarPasajero = function (pasajero, array) {
+	array.splice(pasajero, 1)
+}
+
+agregarPasajero("Manolo de los palotes", pasajeros)
+quitarPasajero("Alicia Gutierrez", pasajeros)
+
+/**
+ * En el ejercicio 10 sigo sin darme el tinte... peeeero nos preguntan: 
+ * La compañía de trenes ha decidido que los viajeros podrán reservar el asiento asignado, 
+ * pero quieren evitar que los pasajeros cambien de asiento constantemente 
+ * cuando se anula uno varios billetes. Nota: Al borrar en el ejercicio anterior 
+ * las posiciones de los pasajeros cambiaban y los billetes quedaban desactualizados.
+ */
+var asientos = [
+	"Alicia Gutierrez",
+	"Alfonso Gomez",
+	"Luis Navarro",
+	"Oscar Garcia",
+	"Andres Fernandez",
+	"Lucia Mellado",
+	"libre",
+	"libre",
+	"libre",
+	"libre",
+	"libre",
+	"libre",
+	"libre",
+	"libre",
+	"libre",
+	"libre"
+];
+
+function asientoReservado(elemento) {
+	return elemento != "libre";
+}
+
+
+var pasajeros = asientos.filter(asientoReservado);
+
+console.log(pasajeros);
+
+
+function agregarPasajero(pasajero, array){
+	array.push(pasajero);
+}
+
+var quitarPasajero = function (pasajero, array) {
+	pasajero = "libre"
+}
+
+function printPassengerList(){
+	
+	for (let i = 0; i < pasajeros.length; i++) {
+			console.log("El pasajero " + pasajeros[i] + " tiene reservado el asiento " + (i+1));
+	}
+}
+
+
+printPassengerList();
+
+agregarPasajero("Pepito Grillo", pasajeros);
+
+quitarPasajero("Alicia Gutierrez", pasajeros)
+
+printPassengerList();

@@ -62,3 +62,23 @@
 - https://i.ytimg.com/vi/LsynbD9gwqg/maxresdefault.jpg 
 - https://cdn-images-1.medium.com/max/1000/1*ReeHV0eEsfmMskVUk1vVog.png 
 - https://marsblogger.files.wordpress.com/2015/04/giga.png 
+
+
+### clase6
+
+- http://4.bp.blogspot.com/-YUyWf1Ey2nQ/VcUCyFjtPXI/AAAAAAAAACU/Hk9ylpwa-3g/s1600/1.jpg 
+- https://cdn-images-1.medium.com/max/1000/1*vYtDyAbOMTJnArJvXix5wg.jpeg 
+- http://nmp90.com/wp-content/uploads/2017/12/object-oriented-programming.jpg 
+- https://cdn-images-1.medium.com/max/800/1*cBFSQ9Ytv_D0jwGtpuL5WA.png 
+- https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F30423109%2F185617782430%2F1%2Foriginal.jpg?s=e00c5055af924b2c841715f435978f74 
+- https://aramgo.files.wordpress.com/2017/12/hl2-logo.jpg
+- https://image.slidesharecdn.com/whywebuilt35kbreactnativealternative2-180125022828/95/why-we-built-35kb-react-native-alternative-5-638.jpg?cb=1516847406
+- https://cdn-images-1.medium.com/max/2000/1*DCzEYU60hk2pO7WCJj3GoQ.jpeg
+- https://cdn-images-1.medium.com/max/800/1*RaZtW9iDxupLurIMcbC92w.jpeg 
+- http://onehungrymind-45fd.kxcdn.com/infographics/observable-cheat-sheet.png?v=1 
+- https://quickbirdstudios.com/blog/wp-content/uploads/2018/08/FRP.jpg
+- https://i.pinimg.com/originals/93/4c/49/934c49c27b3f46b74d57c1142d983260.jpg
+- https://www.reactivemanifesto.org/images/reactive-traits-es.svg
+- https://xzef6mkowaj2390y-zippykid.netdna-ssl.com/wp-content/uploads/2016/10/rxjs-explosion-1.jpg
+- https://www.bit.es/wp-content/uploads/2018/03/Programaci%C3%B3n-Reactiva_.png
+- https://media.makeameme.org/created/dont-forget-40402a.jpg

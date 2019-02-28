@@ -473,7 +473,7 @@ element.hasAttribute('href');
 - Otra forma de aliviar este peso es cargar scripts y multimedia haciendo uso de AJAX
 - Otra forma de gestionar esto para proyectos grandes es usar [Requirejs](https://requirejs.org/), [Browserify](http://browserify.org/) y demás...
 - `async` y `defer` vienen al [rescate](https://es.stackoverflow.com/a/24430)
-s
+- **[Guía definitiva: JavaScript Loading Priorities in Chrome](https://addyosmani.com/blog/script-priorities/)**
 ```html
 <script src="fichero1.js" async></script>
 //Carga fichero1.js sin interferir en el renderizado del DOM

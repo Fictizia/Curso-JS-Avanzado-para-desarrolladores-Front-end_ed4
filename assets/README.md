@@ -82,3 +82,12 @@
 - https://xzef6mkowaj2390y-zippykid.netdna-ssl.com/wp-content/uploads/2016/10/rxjs-explosion-1.jpg
 - https://www.bit.es/wp-content/uploads/2018/03/Programaci%C3%B3n-Reactiva_.png
 - https://media.makeameme.org/created/dont-forget-40402a.jpg
+
+
+### clase7
+
+- https://cdn-images-1.medium.com/max/1600/1*GDGCFOr1d65UKnIo8IjArQ.png 
+- https://s3.amazonaws.com/media-p.slid.es/uploads/479298/images/4641757/browser-diagram-full-2.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png 
+- http://xitrus.es/blog/imgs/nojquery.png 
+- https://cdn.worldvectorlogo.com/logos/bootstrap-5.svg 

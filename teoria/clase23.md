@@ -834,6 +834,4 @@ function getFilm(id, adapter) {
 ```
 
 
-```javascript
-// Tu Solución
-```
+[Solución](https://github.com/josex2r/mocha-example)

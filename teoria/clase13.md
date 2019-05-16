@@ -515,9 +515,7 @@ function initMap() {
 **1 -** Utiliza Google Maps para posicionar al usuario.
 
 
-```javascript
-// Tu Solución
-```
+[Solución](../OTROS/geoposition/google_maps.html)
 
 **2 -** Utiliza Leaflet para posicionar al usuario.
 

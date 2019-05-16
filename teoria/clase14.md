@@ -204,6 +204,4 @@ window.document.designMode = "on"; // off, por defecto
     - Genera un avatar al azar para el usuario usando [Adorable Avatars](http://avatars.adorable.io/)
 
 
-```javascript
-// Tu Solución
-```
+[Solución](http://codepen.io/ulisesgascon/pen/mWWpQr)

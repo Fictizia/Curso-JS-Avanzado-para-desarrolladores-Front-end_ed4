@@ -814,9 +814,8 @@ createNumber(5)   // prints "5"
 ```
 
 
-```javascript
-// Tu Solución
-```
+[Solución](https://github.com/josex2r/mocha-example)
+
 
 **4 -** Testea la siguiente función utilizando `sinon.js` y [sinon-chai](https://github.com/domenic/sinon-chai):
 

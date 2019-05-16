@@ -790,9 +790,8 @@ Deberás preparar un entorno básico de testing siguiendo los siguientes patrone
   - 3 billetes de 50€.
 
 
-```javascript
-// Tu Solución
-```
+[Solución](https://github.com/josex2r/mocha-example)
+
 
 **3 -** Crea una función que acepte como primer argumento un número.
 Esa función debe devolver un objeto con los métodos `add()` y `subtract()`, y a su vez esos métodos se podrán ir encadenando hasta el infinito.

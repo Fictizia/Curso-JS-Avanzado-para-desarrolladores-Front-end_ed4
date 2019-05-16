@@ -520,9 +520,7 @@ function initMap() {
 **2 -** Utiliza Leaflet para posicionar al usuario.
 
 
-```javascript
-// Tu Solución
-```
+[Solución](../OTROS/geoposition/leaflet.html)
 
 **3 -** Posiciona todos los vehículos de transporte (trenes y autobuses) de Los Angeles en el mapa.
 

@@ -769,9 +769,8 @@ Deberás preparar un entorno básico de testing siguiendo los siguientes patrone
 - Cuando ejecutes los tests (utilizando `mocha + chai`) se deben ejecutar todos los ficheros en el directorio `tests/`.
 
 
-```javascript
-// Tu Solución
-```
+[Solución](https://github.com/josex2r/mocha-example)
+
 
 **2 -** Aplicando **TDD** y utilizando el repositorio del ejercicio anterior, crea una función `atm` que devuelva el número más eficiente de billetes dados los siguientes casos:
 - Si un valor no es válido (ej. negativo) no debe devolver nada.

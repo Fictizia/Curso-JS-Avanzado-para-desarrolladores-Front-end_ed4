@@ -1228,9 +1228,7 @@ Objetivos Adicionales:
 - Los datos horarios siempre deben mostrarse con dos dígitos, añadiendo un cero a la izquierda cuando sea necesario.
 
 
-```javascript
-// Tu Solución
-```
+[Solucion](../OTROS/cuenta-atras.html)
 
 
 **2 -** Sacar en el html el tiempo meteorológico de Madrid, Barcelona y Valencia. 

@@ -531,6 +531,4 @@ function initMap() {
 - [Puedes utilizar Cluster de Google Maps](https://developers.google.com/maps/documentation/javascript/marker-clustering)
 
 
-```javascript
-// Tu Solución
-```
+[Solución](../OTROS/geoposition/transport_metro.html)

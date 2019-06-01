@@ -249,7 +249,7 @@
 
 - .reduceRight() *Aplica una función a un acumulador y a cada valor (de izq. a dcha.) de un vector para reducirlo a un único valor (de derecha a izquierda)*:
     ```javascript
-  	var reduceRight = [0,-3,1,2,4,6].reduce(function(valorAnterior, valorActual, indiceActual, array){
+  	var reduceRight = [0,-3,1,2,4,6].reduceRight(function(valorAnterior, valorActual, indiceActual, array){
 	  return valorAnterior + valorActual;
 	});
 	console.log(reduceRight); // 10

@@ -1306,7 +1306,7 @@ for (var i = 0; i < 10; i++) {
 
 - .Floor() *Devuelve el máximo entero menor o igual a un número.*
     ```javascript
-        Math.floor(20.5); // 21
+        Math.floor(20.5); // 20
         Math.floor(20.49); // 20
         Math.floor(-20.51); // -21
     ```

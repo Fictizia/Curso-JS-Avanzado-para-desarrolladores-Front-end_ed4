@@ -54,7 +54,27 @@ Teoría | Recursos | Descripción
 [Clase 1](teoria/clase1.md)	| [Clase 1](recursos/clase1.md) | Intro al Curso, Git/Github/Gitlab/Bitbucket 
 [Clase 2](teoria/clase2.md) | [Clase 2](recursos/clase2.md) | Chrome DevTools + Reintro a Javascript I
 [Clase 3](teoria/clase3.md) | [Clase 3](recursos/clase3.md) | Reintro a Javascript II
-
+[Clase 4](teoria/clase4.md) | [Clase 4](recursos/clase4.md) | ECMA6, es7, es8, es9 I
+[Clase 5](teoria/clase5.md) | [Clase 5](recursos/clase5.md) | ECMA6, es7, es8, es9 II
+[Clase 6](teoria/clase6.md) | [Clase 6](recursos/clase6.md) | Paradigmas: POO, Funcional y Reactiva
+[Clase 7](teoria/clase7.md) | [Clase 7](recursos/clase7.md) | BOM y DOM
+[Clase 8](teoria/clase8.md) | [Clase 8](recursos/clase8.md) | Gestión de Eventos y Ajax
+[Clase 9](teoria/clase9.md) | [Clase 9](recursos/clase9.md) | Navegadores y conceptos avanzados de JS...
+[Clase 10](teoria/clase10.md) | [Clase 10](recursos/clase10.md) | Web Sockets
+[Clase 11](teoria/clase11.md) | [Clase 11](recursos/clase11.md) | Firebase I: Intro + Realtime Database
+[Clase 12](teoria/clase12.md) | [Clase 12](recursos/clase12.md) | Firebase I: Autenticación y Hosting
+[Clase 13](teoria/clase13.md) | [Clase 13](recursos/clase13.md) | HTML5: Geo y mapas
+[Clase 14](teoria/clase14.md) | [Clase 14](recursos/clase14.md) | HTML5: LocalStorage y contentEditor
+[Clase 15](teoria/clase15.md) | [Clase 15](recursos/clase15.md) | HTML5: Offline y WebWorkers
+[Clase 16](teoria/clase16.md) | [Clase 16](recursos/clase16.md) | Patrones de JS I: Antipatrones
+[Clase 17](teoria/clase17.md) | [Clase 17](recursos/clase17.md) | Patrones de JS II: Metaprogramación y Patrones
+[Clase 18](teoria/clase18.md) | [Clase 18](recursos/clase18.md) | Arquitectura en JS: Presentation Patterns, MV* (MVC, MVVM, etc...)
+[Clase 19](teoria/clase19.md) | [Clase 19](recursos/clase19.md) | Patrones de JS III: Algoritmia y Estructuras de datos
+[Clase 20](teoria/clase20.md) | [Clase 20](recursos/clase20.md) | Expresiones Regulares (Regex)
+[Clase 21](teoria/clase21.md) | [Clase 21](recursos/clase21.md) | Nodejs: Funcionamiento, ecosistema, Modularización y Librerías Core
+[Clase 22](teoria/clase22.md) | [Clase 22](recursos/clase22.md) | NPM, YARN, Bower, Grunt, Gulp & Npm Scripts
+[Clase 23](teoria/clase23.md) | [Clase 23](recursos/clase23.md) | Testing & Quality Tools
+[Clase 24](teoria/clase24.md) | [Clase 24](recursos/clase24.md) | Bonus: Docker Universe & Puppetter
 
 
 Temario
